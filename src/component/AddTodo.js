@@ -49,7 +49,9 @@ class AddTodo extends Component {
   variant="contained"
   color="primary"
 >
-  Add
+  
+<div data-testid="new-item-input"></div>
+<div data-testid="new-item-button"></div>
 </Button>
 
         </div>
